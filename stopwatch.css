@@ -1,0 +1,43 @@
+body{
+    background-image:url("stopwatch.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    font-family:cursive;
+    }
+.stopwatch{
+    text-align:center;
+    padding:20px;
+    letter-spacing:3px;
+    color:rgb(201,201,236)
+    border-radius:60px;
+    }
+button{
+    border-radius:50px;
+    background-color:rgb(217,246,243);
+    color:rgb(7,7,9);
+    border:5px groove rgb(8, 81, 163);
+    text-decoration:none;
+    cursor:pointer;
+    font-size:30px;
+    padding:20px;
+    width:150px;
+    font-style:monospace;
+    }
+button:hover{
+    background-color:black;
+    color:snow;
+    }
+.stopwatch:hover{
+    background-color:rgb(97, 138, 185);
+    border-radius:30px;
+    }
+h1,p{
+    font-family:cursive;
+    font-size:45px;
+    text-shadow:4px 5px 6px navy;
+    color:whitesmoke;
+    }
